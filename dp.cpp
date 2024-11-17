@@ -27,7 +27,6 @@ pair<int, double> editDistance(const string& str1, const string& str2) {
         dp[0][j] = dp[0][j-1] + costo_ins(str2[j-1]);
     }
 
-    // Llenar la matriz
     for (int i = 1; i <= m; i++) {
         for (int j = 1; j <= n; j++) {
             if (str1[i-1] == str2[j-1]) {
@@ -39,7 +38,7 @@ pair<int, double> editDistance(const string& str1, const string& str2) {
                 
                 dp[i][j] = min({insert_cost, delete_cost, replace_cost});
 
-                // Verificar si es posible una transposición
+                // transposicion
                 if (i > 1 && j > 1 && 
                     str1[i-1] == str2[j-2] && 
                     str1[i-2] == str2[j-1]) {
