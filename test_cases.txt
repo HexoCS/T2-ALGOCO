@@ -1,0 +1,448 @@
+=== EMPTY_STRINGS ===
+# Case 1
+
+a
+# Case 2
+
+ab
+# Case 3
+
+abc
+# Case 4
+
+abcd
+# Case 5
+
+abcde
+# Case 6
+a
+
+# Case 7
+ab
+
+# Case 8
+abc
+
+# Case 9
+abcd
+
+# Case 10
+abcde
+
+
+=== REPEATED_CHARACTERS ===
+# Case 1
+aa
+aaa
+# Case 2
+aaa
+aaaa
+# Case 3
+aaaa
+aaaaa
+# Case 4
+aaaaa
+aaaaaa
+# Case 5
+aaaaaa
+aaaaaaa
+# Case 6
+aaaaaaa
+aaaaaaaa
+# Case 7
+aaaaaaaa
+aaaaaaaaa
+# Case 8
+aaaaaaaaa
+aaaaaaaaaa
+# Case 9
+aaaaaaaaaa
+aaaaaaaaaaa
+# Case 10
+aaaaaaaaaaa
+aaaaaaaaaaaa
+
+=== TRANSPOSITION_CASES ===
+# Case 1
+ab
+ba
+# Case 2
+abc
+bac
+# Case 3
+abcd
+bacd
+# Case 4
+abcde
+bacde
+# Case 5
+abcdef
+bacdef
+# Case 6
+abcdefg
+bacdefg
+# Case 7
+abcdefgh
+bacdefgh
+# Case 8
+abcdefghi
+bacdefghi
+# Case 9
+abcdefghij
+bacdefghij
+# Case 10
+abcdefghijk
+bacdefghijk
+
+=== EQUAL_LENGTH ===
+# Case 1
+cat
+dog
+# Case 2
+test
+best
+# Case 3
+hello
+world
+# Case 4
+python
+nodejs
+# Case 5
+program
+changed
+# Case 6
+function
+practice
+# Case 7
+algorithm
+datatype
+# Case 8
+computing
+databases
+# Case 9
+processing
+diferentes
+# Case 10
+development
+programming
+
+=== DIFFERENT_LENGTH ===
+# Case 1
+a
+ab
+# Case 2
+ab
+abc
+# Case 3
+abc
+abcd
+# Case 4
+abcd
+abcde
+# Case 5
+abcde
+abcdef
+# Case 6
+abcdef
+abcdefg
+# Case 7
+abcdefg
+abcdefgh
+# Case 8
+abcdefgh
+abcdefghi
+# Case 9
+abcdefghi
+abcdefghij
+# Case 10
+abcdefghij
+abcdefghijk
+
+=== PATTERN_CASES ===
+# Case 1
+ab
+cd
+# Case 2
+aba
+cdc
+# Case 3
+abab
+cdcd
+# Case 4
+ababa
+cdcdc
+# Case 5
+ababab
+cdcdcd
+# Case 6
+abababa
+cdcdcdc
+# Case 7
+abababab
+cdcdcdcd
+# Case 8
+ababababa
+cdcdcdcdc
+# Case 9
+ababababad
+cdcdcdcdcd
+# Case 10
+abababababa
+cdcdcdcdcdc
+
+=== SUBSTRING_CASES ===
+# Case 1
+al
+la
+# Case 2
+alg
+log
+# Case 3
+algo
+loga
+# Case 4
+algor
+logar
+# Case 5
+algori
+logari
+# Case 6
+algorit
+logarit
+# Case 7
+algorith
+logarith
+# Case 8
+algorithm
+logarithm
+# Case 9
+algorithms
+logarithms
+# Case 10
+algorithmic
+logarithmic
+
+=== INSERTION_CASES ===
+# Case 1
+a
+ab
+# Case 2
+ab
+abc
+# Case 3
+abc
+abcd
+# Case 4
+test
+tests
+# Case 5
+tests
+tested
+# Case 6
+tested
+testing
+# Case 7
+testing
+testings
+# Case 8
+testings
+testinger
+# Case 9
+testinger
+testingers
+# Case 10
+testingers
+testingered
+
+=== DELETION_CASES ===
+# Case 1
+ab
+a
+# Case 2
+abc
+ab
+# Case 3
+abcd
+abc
+# Case 4
+abcde
+abcd
+# Case 5
+abcdef
+abcde
+# Case 6
+abcdefg
+abcdef
+# Case 7
+abcdefgh
+abcdefg
+# Case 8
+abcdefghi
+abcdefgh
+# Case 9
+abcdefghij
+abcdefghi
+# Case 10
+abcdefghijk
+abcdefghij
+
+=== SUBSTITUTION_CASES ===
+# Case 1
+cat
+rat
+# Case 2
+test
+best
+# Case 3
+tests
+bests
+# Case 4
+tested
+bested
+# Case 5
+testing
+besting
+# Case 6
+testings
+bestings
+# Case 7
+testinger
+bestinger
+# Case 8
+testingers
+bestingers
+# Case 9
+testingered
+bestingered
+# Case 10
+testingereds
+bestingereds
+
+=== SMALL_RANDOM ===
+# Case 1
+gr
+hj
+# Case 2
+pex
+ghr
+# Case 3
+snmy
+lbaq
+# Case 4
+flvtz
+azmnj
+# Case 5
+ahvuzg
+kmiudo
+# Case 6
+zmiaaxc
+wjzmfxr
+# Case 7
+fisllmmb
+kedelsvm
+# Case 8
+trgfidfqa
+oezrzrxem
+# Case 9
+ckdhqfjjhg
+qxdgbljxhm
+# Case 10
+dfjamulxclt
+lwtjemhqdsi
+
+=== MEDIUM_RANDOM ===
+# Case 1
+lmoeszacaz
+kzzwrgwxtr
+# Case 2
+eyxtxiwwvtst
+ywyidpvefoqg
+# Case 3
+tuslvthlknplui
+wloxtcjxzjkjta
+# Case 4
+bvhgcsdaawpgnrpi
+admqymrhfiovowdu
+# Case 5
+tqezifcgiqsvxlspid
+rdnfwfgglaxhwlpfdo
+# Case 6
+gcpsojmarvbciwcbxvum
+onucurtkghvzjsayjmnf
+# Case 7
+hqmvvhaebfvkfwzyjvclbr
+krlxunekjddzydvzhxhnfd
+# Case 8
+jirugbnhvhejixwuardyojmn
+xggsdenfvfmuxgtmiuppdaxu
+# Case 9
+hnxyvjpmjgpikfuflvlrsasniq
+fgdaomgxwxocdjomhozlygbiru
+# Case 10
+xtzaxheysrxlnzwyaibzsutphczx
+fblynwgozyfuuyybeprvuoktiyfv
+
+=== LARGE_RANDOM ===
+# Case 1
+kksaozqejpdbqzydietusuzkihoyvdzddvnwxbhvtlrhgurolz
+wxhttmpnsfidbtmntmyroiapaftctaumdtpedewixvyharsfbn
+# Case 2
+yjrvfsomakxoszoxgxaierwgxdfonpscypnuwidpvpdbflfybtgjzbdhauqf
+fifxdiljsmcndnsywpmvyfcgvgfqafmldbmqbxfbyqtkqwakqvtogfhcwgad
+# Case 3
+hkqbsxzunbjqwkvyjoimbbjqbzbrhoxprgvvkvvlpitewlrdgpofglintojppcdvsrrdgz
+nmtqtkwehuezzfztyaaqqbrcmvwkuhxsgmrdvfhhkafjkyomdkmpcywlultbzxvsgahoah
+# Case 4
+nkzejitdokymdrryijojpzuttabbwapbalgbjbxcgqoaegfdbcgjadychbfohcudsoaurkkammkbmctm
+goafafepjobfypglforqapcgkhvjlhaowkfhudimfnbxmrmbawiqroieedhibrlldstgiqsqselcrpxf
+# Case 5
+ibmtibpvyowftncdguduuddzbwqmzpmcsxsiewvosuhdgcabistfhqrcbhhyaefjntntarcbcoikfgengqtgvmaydt
+ewwefgukcrljobnhewxffydimnmlqqebasrxvfhphivxvczbnnzukazyqhfkefvsydobropduxgknjdtaalaiktkva
+# Case 6
+asstzmjqgvbxjnbmikihmhoezxbxqaopissgcbhqevmgxqqmrwlmerxqwmtvlflpryxfjibftzvhvrhutecynbykkjxovsuovtir
+zxnzbknaobsymxbtusqeuacsbxrzijfrxoprapfayjhlomcynfxyzhjpjdxgklzaqejbrlrcfhiqwztanxgcvpgedpenzxsnckje
+# Case 7
+bycnfykzwbkqjqjudjxczlavtmixspdrparjbtpjrvdkczfwmvmgmafxgvjcipwrkenaqknmiegrhurnghdqzqzcgqywnanvqsnennjkmpvtiw
+wqzpemofegsnnmkdcofzyepphtbkhmgyebwihlmvoskyzwrorhjzlykbvlofnzqivsuefbxxfknbqwybouilbrcysxohyhqgmtaqvvjfoweefh
+# Case 8
+krbpyjglslpnmeduyawxwkjipkmjiwpbctqedndmcqelusnvhyfueyktcbfcmouyewdwtcqrligjamyftlffqbayulhiiwlmidbdoosuhxtjhtcmkffyjvzu
+sbyppasgsuvswefxvsoyrkcgpdeoutqtnfxxjynsjojvdbguluqfspjprmpsdegqdvxkwonofnmzjpfimtdrizxohrjaqbglzshakududwajfbxcwpgjokwm
+# Case 9
+heuystzrzquqvlbchtmqusmrmjxtyodappzprqiffwnevcpbcgppgfmbizvpnlkuhmwpnsvnltwkededpusosuzwzphzirlqeryfmztoityvgzvyqrmglpfjicfjlkvwti
+syqqyfwnclvqaogpxlsvnwrgcpiuuprcdwoibgsntwuwittnkpxsicvhoophudihmocgcqexwfxjuivpwsbkblmefxzjqybgzzbdpxtqmbzliogqxjsbmbqryleoeotwgn
+# Case 10
+vbgtjvfrwnkvpnbzztaimocckkqlkggmsoysgtbaskwirzsyvkxzcswrtzvurvkxmgajkstknbtdasvaeyriwpvfjftjbgajbtitwomgvlgknimgjzacfjquftbwmjzdqcvrzhpxuaum
+sqicujfkkwsaulsaccbwprtcloeadofmmjfaeioadcjsikwwtdnmbdhjfjourkeaagswmkiqwdwpivkfwyoosigmdvwhntcuhtlqdbxmkinrjfhxsyvyxepznoeinostvjusguxcuqom
+
+=== BIASED_DISTRIBUTION ===
+# Case 1
+ueoih
+eaeau
+# Case 2
+ieroluz
+fhruyey
+# Case 3
+nxejolmuh
+uqamzeevu
+# Case 4
+fariiunifco
+afnkuiioiaa
+# Case 5
+vqxiouilioxea
+udbobixeoeeee
+# Case 6
+glpeteusuxtraaa
+iezuabiuseoeeoi
+# Case 7
+euxorqcrnrogmkuqn
+ecuytoqajooaqloii
+# Case 8
+abuoimainiuiediiioe
+juiecuszjiiehsoemeu
+# Case 9
+wwrreaeseaiajpuutviaj
+eitinvtpgmuroqjiyaaqo
+# Case 10
+eieieeoipeouevoqrkbamue
+yaoiudiirozsuaqiboceiwc
+
